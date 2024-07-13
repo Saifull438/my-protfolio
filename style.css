@@ -1,0 +1,37 @@
+body {
+    font-family: poppins;
+}
+
+.flexiable-section{
+    display: flex;
+    padding: 50px 0 ;
+}
+
+.half-width {
+    width:50% ;
+    padding:0 5% ;
+}
+
+.half-width a {
+
+    text-decoration: none ;
+    text-transform: uppercase ;
+    color:white;
+    background-color: tomato;
+    padding: 10px 3opx;
+    border-radius: 10px;
+
+}
+
+.half-width {
+    font-size: 50px;
+    font-weight: 700 ;
+}
+
+.half-width img {
+    width: 100% ;
+}
+
+.orange {
+    color: orange;
+}
