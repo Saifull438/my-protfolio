@@ -1,37 +1,75 @@
 body {
-    font-family: poppins;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
 }
 
-.flexiable-section{
+.flexiable-container {
     display: flex;
-    padding: 50px 0 ;
+    padding: 50px o;
 }
-
 .half-width {
-    width:50% ;
-    padding:0 5% ;
-}
-
-.half-width a {
-
-    text-decoration: none ;
-    text-transform: uppercase ;
-    color:white;
-    background-color: tomato;
-    padding: 10px 3opx;
-    border-radius: 10px;
-
-}
-
-.half-width {
-    font-size: 50px;
-    font-weight: 700 ;
-}
-
-.half-width img {
-    width: 100% ;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .orange {
     color: orange;
+}
+.half-width h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.welcome-section {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exprience-item {
+    width: 40%;
+    margin: 0 5% 0 5%;
+    box-shadow: 15px 15px 30px lightgray;
+    padding: 20px;
+}
+
+#full-stack {
+    border-left: 4px solid;
+    border-image: linear-gradient(#ff6448, #ff9f79);
+    border-image-slice: 1;
+
+}
+
+#baby-web {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+.exprience-section h1 {
+    padding-left: 70px;
+}
+
+footer {
+    text-align: center;
+    padding: 10PX 0;
+    background-color: #ededed;
 }
